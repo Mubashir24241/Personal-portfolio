@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="images/logo 2.jpg" class="logo" style="background-color: aqua; height: 60px;"></img>
+                <ul class="top">
+                    <li><a class="food" href="#home">Home</a></li>
+                    <li><a class="food" href="#about">About</a></li>
+                    <li><a class="food" href="#services">Services</a></li>
+                    <li><a class="food" href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+
+            <div class="header-text">
+                <p style="color: rgb(56, 94, 230);">Web Developer</p>
+                <h1>Hi, I'm <span>MUBASHIR AHMAD</span><br>MIR from J&K, INDIA</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 style="color: rgb(56, 94, 230);" class="sub-title">About Me</h1>
+
+                <p>I'm a web developer with a passion for creating beautiful and functional websites that help businesses grow and thrive. Having experience in a wide range of Web Development technologies including HTML5, CSS, JavaScript, php reactjs......etc.
+                    As a detail-oriented web developer, I'm always looking for ways to optimize performance and enhance user experience. In addition to my technical skills, I'm also a creative problem-solver who loves to think outside the box and find
+                    innovative solutions to complex challenges. I'm a problem-solver at heart, and I love nothing more than tackling complex challenges and finding creative solutions. I'm a lifelong learner, and I'm constantly seeking out new opportunities
+                    to expand my knowledge and skills in every fields.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                    <!-- <p class="tab-links" onclick="openTab('experience')">Experience</p> -->
+                    <p class="tab-links" onclick="openTab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android apps</li>
+                        <li><span>UI/UX</span><br>Basics in UI</li>
+
+                    </ul>
+                </div>
+                <!-- <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br>UI/UX Design training at ET Institute</li>
+                        <li><span>2019-2021</span><br>Web app Development</li>
+                        <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                        <li><span>2017-2019</span><br>Internship at eKart ecommerce.</li>
+                    </ul> -->
+                <!-- </div> -->
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Bachelor's of Technology (2024)</span><br>Dr. A.P.J Abdul Kalam Technical University,Lucknow </li>
+                        <li><span>Intermediate (2019)</span><br>Baramulla Higher Sec. (Baramulla)</li>
+                        <li><span>High school (2017)</span><br>Baramulla Higher Sec. (Baramulla)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 style="color: rgb(56, 94, 230);" class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Development</h2>
+                    <p> I'm a fresh-faced app developer with a passion for creating awesome apps. I've got experience building apps for Android, and I'm always learning new things to stay on top of my game</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p> I'm a self-taught web developer with a love for all things coding. I've spent countless hours learning HTML, CSS, and JavaScript, <br>I love combining my creative skills with my technical expertise to create websites that are both
+                        visually stunning and easy to use.</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i
+                    <h2>UI/UX Design</h2>
+                    <p>In the learning phase of UI Designing , always learning new things and keeps myself updated , looking for field where i can utilize my skills and knowledge</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 style="color: rgb(56, 94, 230);" class="sub-title">Some Of My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpeg" style="height: 80%;" alt="">
+                    <div class="layer ">
+                        <h2>QR Code Generator</h2>
+                        <p>This is a pure javascript project <br> it allows users to create QR codes that can be scanned by smartphones or other devices. These codes can contain various types of information, such as URLs, contact information, or text messages.</p>
+                        <a href="https://github.com/Mubashir24241/QR-code-generator--js- "><i class="fas fa-external-link-alt "></i></a>
+                </div>
+            </div>
+            <div class="work ">
+                <img src="images/work-2.jpg " style="height: 80%;" alt=" ">
+                <div class="layer ">
+                    <h2>Word Guessing App</h2>
+                    <p>A Word Guessing android Application designed and build in android studio. Intresting application that increase people's knowledge by providing the words with interchanged alphabets. </p>
+                    <!-- <a href="# "><i class="fas fa-external-link-alt "></i></a> -->
+                </div>
+            </div>
+            <div class="work ">
+                <img src="images/work-3.jpg " style="height: 80%;" alt=" ">
+                <div class="layer ">
+                    <h2>Emoji Maker </h2>
+                    <p>An emoji maker app that allows users to create their own personalized emojis. These emojis can be used in messaging apps, social media, and other digital communications allow users to design their own emoji from scratch, choosing from
+                        a variety of facial features, hairstyles, and accessories.</p>
+                    <a href="https://github.com/Mubashir24241/Emoji-Maker-using-javascript "><i class="fas fa-external-link-alt "></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- <a href=" " class="btn ">See more</a> -->
+    </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row ">
+                <div class="contact-left ">
+                    <h1 style="color: rgb(56, 94, 230);" class="sub-title ">Contact Me</h1>
+                    <p><i class="fa fa-envelope"></i> mubashir.ahmad.cse.2020@miet.ac.in</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 6005782424</p>
+                    <div class="social-icons ">
+                        <!-- <a href="mubashir.ahmad.cse.2020@miet.ac.in "><i class="bi bi-github"></i></a> -->
+                        <a href="https://github.com/Mubashir24241" target="_blank"><i class="fab fa-github"></i></i></a>
+                        <a href="https://twitter.com/Mubashir7421" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/i_m_meer_mubashir/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mubashirahmad223/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <!-- <a href="images/Updated resume(Mubashir).pdf " view class="btn btn2 ">view CV</a> -->
+                    <a href="images/resume22.pdf" target="_blank" class="btn btn2">View CV</a>
+                </div>
+
+
+                <div class="contact-right ">
+                    <form action="contact.php" method="POST">
+                        <input type="text " name="Name " placeholder="Your Name " required>
+                        <input type="email " name="Email " placeholder="Your Email " required>
+                        <textarea name="Message " rows="6 " placeholder="Your Message "></textarea>
+                        <button type="submit " class="btn btn3 ">submit</button>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="copyright ">
+            <p> Made with <i class="fas fa-heart "></i> by MUBASHIR AHMAD MIR</p>
+        </div>
+    </div>
+
+
+
+    <!-- <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+    </script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
